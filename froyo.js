@@ -6,17 +6,16 @@ const froyoMenu = {
 
 let placedOrder = prompt("Please enter one flavor for each frozen yogurt you wish to purchase. Separate each flavor by commas:");
 let orderString = placedOrder.split(",")
-function ringUpOrder(flavors) {
-    let flavors = 0
+function ringUpOrder(Object) {
+    let flavors = Object.values(Object)
     for (let i = 0; i < orderString.length; i++) {
-        if (orderString = froyoMenu[0]) {Object.values(froyoMenu[0]) + 1;
+        if (i = froyoMenu[0]) {Object.values(froyoMenu[0]) + 1;
         }
-        else if (orderString = froyoMenu[1]) {Object.values(froyoMenu[1]) + 1;
+        else if (i = froyoMenu[1]) {Object.values(froyoMenu[1]) + 1;
         }
-        else if (orderString = froyoMenu[2]) {Object.values(froyoMenu[2]) + 1;
+        else if (i = froyoMenu[2]) {Object.values(froyoMenu[2]) + 1;
         }
-
     }
-    return flavors
+    return (flavors)
 }
-console.log(ringUpOrder(flavors))
+console.log(ringUpOrder(froyoMenu))
